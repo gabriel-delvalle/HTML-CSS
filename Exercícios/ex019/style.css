@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: #b3f1dc;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1 {
+    color: #2b745a;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #2C6F57;
+    color: white;
+}
+
+h2 {
+    color: #42aa86;
+}
+
+h2.intermediate {
+    color: rgb(205, 224, 35);
+}
+
+h2.advanced {
+    color: rgb(187, 12, 12);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
