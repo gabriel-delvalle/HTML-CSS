@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="i-nome">Nome: </label> <input type="text" name="nome" id="i-nome" required minlength="5" maxlength="30" placeholder="Nome">
+            </p>
+            <p>
+                <label for="i-email">Email: </label> <input type="email" name="email" id="i-email" required autocomplete="email" placeholder="E-mail">
+            </p>
+            <p>
+                <label for="i-telefone">Telefone: </label> <input type="tel" name="telefone" id="i-telefone" required placeholder="+xx xx xxxxx-xxxx" pattern="^\+55 [1-9]{2} 9[0-9]{4}-[0-9]{4}$">
+            </p>
+        </fieldset>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </p>
+    </form>
+</body>
+</html>
