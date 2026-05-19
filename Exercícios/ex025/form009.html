@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="i-num">Número:</label>
+            <input type="range" name="num" id="i-num" min="0" max="10" value="5" oninput="document.getElementById('i-val').innerHTML = document.getElementById('i-num').value">
+            <output id="i-val">5</output>
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </p>
+    </form>
+</body>
+</html>
